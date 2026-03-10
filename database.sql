@@ -33,26 +33,26 @@ INSERT INTO
     users (username, password, full_name)
 VALUES (
         'jlopez',
-        '$2b$10$K9QwR9Fv1yYVZsQx9kKZ1e4m0Q0kP6r6W8Xk8Oe7H9qQjT7mKc1dG',
+        '$2b$10$gNmVWycdz4kbdKcab2dbwer/JbXpt1fc/lJA8HP8ZSVllH3doEFZm',
         'Juan Lopez'
     ),
     (
         'mrojas',
-        '$2b$10$K9QwR9Fv1yYVZsQx9kKZ1e4m0Q0kP6r6W8Xk8Oe7H9qQjT7mKc1dG',
+        '$2b$10$gNmVWycdz4kbdKcab2dbwer/JbXpt1fc/lJA8HP8ZSVllH3doEFZm',
         'Maria Rojas'
     ),
     (
         'cgarcia',
-        '$2b$10$K9QwR9Fv1yYVZsQx9kKZ1e4m0Q0kP6r6W8Xk8Oe7H9qQjT7mKc1dG',
+        '$2b$10$gNmVWycdz4kbdKcab2dbwer/JbXpt1fc/lJA8HP8ZSVllH3doEFZm',
         'Carlos Garcia'
     ),
     (
         'lramirez',
-        '$2b$10$K9QwR9Fv1yYVZsQx9kKZ1e4m0Q0kP6r6W8Xk8Oe7H9qQjT7mKc1dG',
+        '$2b$10$gNmVWycdz4kbdKcab2dbwer/JbXpt1fc/lJA8HP8ZSVllH3doEFZm',
         'Luis Ramirez'
     ),
     (
         'aparedes',
-        '$2b$10$K9QwR9Fv1yYVZsQx9kKZ1e4m0Q0kP6r6W8Xk8Oe7H9qQjT7mKc1dG',
+        '$2b$10$gNmVWycdz4kbdKcab2dbwer/JbXpt1fc/lJA8HP8ZSVllH3doEFZm',
         'Ana Paredes'
     );
