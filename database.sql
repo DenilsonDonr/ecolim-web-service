@@ -29,8 +29,17 @@ CREATE TABLE waste_collection (
     FOREIGN KEY (waste_type_id) REFERENCES waste_types (id)
 );
 
-INSERT INTO
-    users (username, password, full_name)
+-- Insertar tipos de residuos
+INSERT INTO waste_types (name, description)
+VALUES
+    ('Plástico', 'Residuos de plástico general'),
+    ('Vidrio', 'Botellas y recipientes de vidrio'),
+    ('Papel y Cartón', 'Papel, cartón y periódicos'),
+    ('Metales', 'Latas, aluminio y otros metales'),
+    ('Orgánico', 'Residuos de comida y materia orgánica');
+
+-- Insertar usuarios
+INSERT INTO users (username, password, full_name)
 VALUES (
         'jlopez',
         '$2b$10$gNmVWycdz4kbdKcab2dbwer/JbXpt1fc/lJA8HP8ZSVllH3doEFZm',
